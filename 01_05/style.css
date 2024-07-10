@@ -52,3 +52,7 @@ figure.full-width>* {
   padding: 0;
   grid-column: 1/-1;
 }
+
+.highlight {
+  background-color: #F0E57E;
+}
