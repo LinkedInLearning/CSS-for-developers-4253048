@@ -1,0 +1,22 @@
+h1 {
+ font-size: 2rem;
+}
+
+.card {
+  border: 1px solid #000;
+  padding: 1em;
+}
+
+.card p {
+  background-color: hsla(172, 51%, 53%, 50%);
+  font-size: 1rem;
+  padding: 0.5em;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
