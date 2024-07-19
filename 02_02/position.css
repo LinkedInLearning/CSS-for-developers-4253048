@@ -1,0 +1,23 @@
+figure {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.header {
+  background: orange;
+}
+
+.quote {
+  background-color: hsla(168, 96%, 70%, 0.5);
+  font-style: italic;
+  padding: 1rem;
+}
+
+.main {
+  margin: 0 auto;
+  width: min(100vw - 2rem, 50ch);
+}
