@@ -2,3 +2,9 @@
   margin: 0 auto;
   width: min(100vw - 2rem, 50ch);
 }
+
+.quote {
+  background-color: hsla(168, 96%, 70%, 0.5);
+  font-style: italic;
+  padding: 1rem;
+}
