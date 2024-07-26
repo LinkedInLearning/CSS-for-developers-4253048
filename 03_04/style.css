@@ -1,0 +1,29 @@
+blockquote {
+  margin: 0;
+}
+
+.header {
+  margin-right: auto;
+  margin-left: auto;
+  padding: 1rem;
+}
+
+h2 {
+  margin: 0;
+}
+
+main>* {
+  padding: 1rem;
+}
+
+.quote {
+  background: #4d1979;
+  color: white;
+  float: right;
+  margin-bottom: 2rem;
+  margin-left: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 2rem;
+  width: 50%;
+}
