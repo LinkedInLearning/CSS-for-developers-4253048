@@ -1,0 +1,31 @@
+.main {
+  align-items: stretch;
+  background-color: #ccc;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  width: 80vw;
+
+  & .box { /** Parses as .main .box **/
+    background-color: purple;
+    color: #fff;
+    padding: 2rem;
+
+    & blockquote { /** Parses as .main .box blockquote **/
+      border: 1px dashed gray;
+    }
+  }
+}
+
+blockquote {
+  font-size: 2rem;
+
+  &::after { /** Parses as blockquote::after **/
+    content: '~ ' attr(cite);
+      display: block;
+      font-size: 1.5rem;
+      font-style: italic;
+      margin-top: 10px;
+      text-align: center;
+  }
+}
