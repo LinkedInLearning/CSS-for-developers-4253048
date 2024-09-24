@@ -14,7 +14,6 @@ body {
 .main {
   align-items: center;
   display: flex;
-  height: 50vh;
   justify-content: center;
 }
 
@@ -40,7 +39,6 @@ cite {
   --color-s: 96%;
   --color-l: 63;
 
-   /*
   --color-base: hsl(var(--color-h), var(--color-s), calc(var(--color-l) * 1%));
   --color-light: hsl(var(--color-h), var(--color-s), calc((var(--color-l) + 20) * 1%));
   --color-dark: hsl(var(--color-h), var(--color-s), calc((var(--color-l) - 20) * 1%)); 
@@ -51,6 +49,6 @@ cite {
     var(--color-base) 50%,
     var(--color-dark) 100%
   ); 
-  */
+
   
 }
