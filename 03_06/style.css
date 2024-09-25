@@ -6,12 +6,12 @@
   padding: 1rem;
   width: 80vw;
 
-  & .box { /** Parses as .main .box **/
+  .box { /** Parses as .main .box **/
     background-color: purple;
     color: #fff;
     padding: 2rem;
 
-    & blockquote { /** Parses as .main .box blockquote **/
+    & blockquote { /** Parses as .main & .box  & blockquote **/
       border: 1px dashed gray;
     }
   }
